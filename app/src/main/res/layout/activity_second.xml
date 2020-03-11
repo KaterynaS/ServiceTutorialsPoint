@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#119DEE"
+    android:gravity="center"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/play_sound_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run background Sound"/>
+
+
+    <Button
+        android:id="@+id/stop_sound_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop sound"/>
+
+
+    <Button
+        android:id="@+id/go_to_main_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prev page"
+        android:textSize="30sp" />
+
+</LinearLayout>
